@@ -1,0 +1,27 @@
+FirstName,Surname,Dob,Postcode,AccountType,InitialAmount,TotalPaymentAmount,RepaymentAmount,RemainingAmount,TransactionDate,MinimumPaymentAmount,InterestRate,InitialTerm,RemainingTerm,Status
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,,,,12/07/2021,960,3.1,240,240,InitialPurchase
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,189220,12/08/2021,960,3.1,240,239,OK
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,188440,12/09/2021,960,3.1,240,238,OK
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,187660,12/10/2021,960,3.1,240,237,OK
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,186880,12/11/2021,960,3.1,240,236,OK
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,186100,12/12/2021,960,3.1,240,235,OK
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,185320,12/01/2022,960,3.1,240,234,OK
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,184540,12/02/2022,960,3.1,240,233,OK
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,183760,12/03/2022,960,3.1,240,232,OK
+John,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,182980,12/04/2022,960,3.1,240,231,OK
+,Smith,23/09/1980,'CB3 5RR',Mortgage,190000,960,780,184540,12/02/2022,960,3.1,240,233,OK
+John,Smith,23/09/80,'CB3 5RR',CreditCard,250,,,,03/03/2022,5.00,28.4,,,InitialPurchase
+John,Smith,23/09/80,'CB3 5RR',CreditCard,250,5.00,,246.21,15/03/2022,5.00,28.4,,,OK
+John,,23/09/81,,CreditCard,250,25.00,,221.61,15/04/2022,5.00,28.4,,,OK
+John,Smith,23/09/80,'CB3 5RR',CreditCard,250,25.00,,221.61,15/04/2022,5.00,28.4,,,OK
+John,Smith,23/09/80,'CB3 5RR',CreditCard,250,221.61,,0,01/05/2022,5.00,28.4,,,OK
+John,Smith,23/09/80,'CB3 5RR',CreditCard,35,,,,03/05/2022,5.00,28.4,,,InitialPurchase
+Anshika,Mandal,03/03/1965,'NG23 5RS',Loan,6000,,,,05/12/2021,105,3.9,36,36,InitialPurchase
+Anshika,Mandal,03/03/1965,'NG23 5RS',Loan,6000,105,98,5902,05/01/2022,105,3.9,36,35,OK
+Anshika,Mandal,03/03/1965,'NG23 5RS',Loan,6000,105,98,5804,05/02/2022,105,3.9,36,34,OK
+Anshika,Mandal,,,Loan,6000,,,,05/02/2022,,,,,OK
+Anshika,Mandal,03/03/1965,'NG23 5RS',Loan,6000,105,98,5706,05/03/2022,105,3.9,36,33,OK
+Anshika,Mandal,03/03/1965,'NG23 5RS',Loan,6000,105,0,5713,05/04/2022,105,3.9,36,33,Overdue
+Anshika,Mandal,03/03/1965,'NG23 5RS',Loan,6000,105,0,5720,05/05/2022,105,3.9,36,33,Overdue
+Mohammed,Iqbal,15/06/1994,'EH2 4RF',Loan,7500,,,,02/05/2022,89.26,2.9,48,48,InitialPurchase
+Jane,Smith,02/05/1984,'CB3 5RR',CreditCard,50.42,,,,09/05/2022,5.00,28.4,,,InitialPurchase

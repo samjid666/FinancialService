@@ -1,0 +1,6 @@
+@NftApi_HostAddress = http://localhost:5279
+
+GET {{NftApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
