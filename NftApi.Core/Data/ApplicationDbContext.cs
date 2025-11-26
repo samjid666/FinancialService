@@ -16,6 +16,7 @@ namespace NftApi.Core.Data
 
         public DbSet<Person> People { get; set; }
         public DbSet<FinancialRecord> FinancialRecords { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -29,6 +30,16 @@ namespace NftApi.Core.Data
                 entity.HasIndex(f => f.TransactionDate);
                 entity.HasIndex(f => f.Status);
                 entity.HasIndex(f => new { f.PersonId, f.Status });
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(u => u.Id);
+                entity.HasIndex(u => u.Username).IsUnique();
+                entity.HasIndex(u => u.Email).IsUnique();
+                entity.Property(u => u.Username).IsRequired().HasMaxLength(100);
+                entity.Property(u => u.Email).IsRequired().HasMaxLength(256);
+                entity.Property(u => u.PasswordHash).IsRequired();
             });
         }
     }

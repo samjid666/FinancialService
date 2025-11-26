@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NftApi.Core.Data;
 using NftApi.Core.Models;
@@ -7,6 +8,7 @@ namespace NftApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class SearchController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
